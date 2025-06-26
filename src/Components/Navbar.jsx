@@ -13,9 +13,6 @@ export default function Navbar() {
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.logoContainer}>
-        <img src="/logo.png" alt="MB Logo" className={styles.logo} />
-      </div>
       <ul className={styles.navList}>
         {navLinks.map((link) => (
           <li key={link.name}>
