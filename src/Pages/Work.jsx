@@ -4,19 +4,25 @@ const workData = [
   {
     company: 'CapTech Consulting',
     title: 'Consultant',
-    dates: 'Jan 2023 – Present',
+    dates: 'Sep 2021 – Present',
     clients: [
       {
-        name: 'Bank of America',
-        duration: 'Jan 2023 – Jun 2023',
-        summary: 'Led modernization of a legacy loan processing system.',
-        tech: ['React', 'Spring Boot', 'AWS']
+        name: 'Capital One',
+        duration: 'Apr 2024 – Jul 2024',
+        summary: 'Migrated 200+ datasets of financial data to AWS S3, improving data accessibility and reducing storage costs by 30%. Developed and integrated Databricks scripts to validate batch datasets reducing development time by 30%. Collaborated with business stakeholders to define requirements, reducing development cycle time by 20%. Conducted unit and integration testing, achieving an 85%+ test coverage rate and reducing post-deployment bugs by 40%.',
+        tech: ['Databricks', 'Python', 'AWS', 'Spark']
+      },
+      {
+        name: 'LPL Financial',
+        duration: 'Sep 2023 – Apr 2024',
+        summary: 'Developed a customer account platform using Angular, Tailwind CSS, and gRPC APIs, reducing page load times by 35% and increasing user engagement. Integrated third-party APIs like SmartyStreets for address validation, improving data accuracy by 98%. Ensured application reliability through comprehensive testing, reducing system downtime by 50%.',
+        tech: ['Angular', 'Tailwind CSS', '.NET']
       },
       {
         name: 'Capital One',
-        duration: 'Jul 2023 – Dec 2023',
-        summary: 'Built a real-time fraud detection dashboard.',
-        tech: ['Vue.js', 'Python', 'Kubernetes']
+        duration: "Mar 2022 - Dec 2022",
+        summary: 'Implemented Angular features for card management, increasing customer self-service usage by 25%, reducing support tickets.Developed new deployment pipelines using Nx Monorepo, reducing deployment time by 40%. Optimized database queries, reducing API response time from 1.2s to 400ms.  Collaborated with cross-functional teams in Agile sprints, ensuring 100% on-time delivery of features.',
+        tech: ['Angular', 'Nx Monorepo']
       }
     ]
   }
