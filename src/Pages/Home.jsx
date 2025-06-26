@@ -12,10 +12,19 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
+      
+<motion.img
+  src="../public/assets/Profile.jpg"
+  alt="Marquan Bowman"
+  className={styles.profile}
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.6 }}
+/>
         <h1 className={styles.name}>Marquan Bowman</h1>
-        <h2 className={styles.title}>Data-Focused Technology Consultant</h2>
+        <h2 className={styles.title}>Software Engineer</h2>
         <p className={styles.tagline}>
-          Blending software engineering, data insights, and storytelling to solve real-world problems.
+          Innovative and results-driven software developer. Designing, implementing, and optimizing scalable software solutions
         </p>
         <div className={styles.buttons}>
           <Link to="/projects" className={styles.button}>View Projects</Link>

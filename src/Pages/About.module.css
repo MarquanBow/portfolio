@@ -60,3 +60,14 @@
   margin-bottom: 0.75rem;
   font-size: 0.95rem;
 }
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
