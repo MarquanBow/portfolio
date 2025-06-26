@@ -1,3 +1,5 @@
+import styles from './Home.module.css';
+
 export default function Home() {
   return (
     <section className="p-8 text-center">

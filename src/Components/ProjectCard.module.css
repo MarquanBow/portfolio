@@ -1,0 +1,59 @@
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #2e2e2e;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tech {
+  background-color: #f0f8ff;
+  color: #2e2e2e;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.875rem;
+  border-radius: 6px;
+}
+
+.links {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #a0d2eb;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #89c4e0;
+}

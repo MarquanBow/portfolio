@@ -4,8 +4,20 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f9fafb;
+  background-color: #f7f9fc;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #2e2e2e;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  color: inherit;
+  text-decoration: none;
 }

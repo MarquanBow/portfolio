@@ -1,0 +1,36 @@
+.nav {
+  background-color: #f7f9fc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.125rem;
+  padding: 1rem;
+  margin: 0;
+  list-style: none;
+}
+
+.navLink {
+  color: #2e2e2e;
+  padding: 0.25rem 0.5rem;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: #a0d2eb;
+}
+
+.active {
+  font-weight: 600;
+  color: #a0d2eb;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
