@@ -1,29 +1,33 @@
+import React from 'react';
+import styles from './Projects.module.css';
 import ProjectCard from '../Components/ProjectCard';
 
 const projects = [
   {
     title: 'Expense Tracker',
-    description: 'A full-stack app to track monthly expenses with visual summaries.',
+    description: 'A full-stack app to manage personal expenses and set budgets.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB'],
     github: 'https://github.com/yourname/expense-tracker',
-    demo: 'https://yourtracker.netlify.app'
+    demo: 'https://expense-tracker.netlify.app'
   },
   {
-    title: 'Pokemon Data Explorer',
-    description: 'Explore Pokémon stats and search by type using a clean UI.',
+    title: 'Pokémon Data Explorer',
+    description: 'Search and explore Pokémon stats by type or ability.',
     tech: ['React', 'Axios', 'PokeAPI'],
-    github: 'https://github.com/yourname/pokemon-project',
-    demo: ''
-  }
+    github: 'https://github.com/yourname/pokemon-project'
+  },
+  // Add more projects here
 ];
 
 export default function Projects() {
   return (
-    <div style={{ padding: '2rem' }}>
-      <h2>Projects</h2>
-      {projects.map((project, index) => (
-        <ProjectCard key={index} {...project} />
-      ))}
-    </div>
+    <section className={styles.projects}>
+      <h2 className={styles.heading}>Projects</h2>
+      <div className={styles.grid}>
+        {projects.map((project, index) => (
+          <ProjectCard key={index} {...project} />
+        ))}
+      </div>
+    </section>
   );
 }

@@ -1,0 +1,19 @@
+.projects {
+  background-color: #f7f9fc;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2b2b2b;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
