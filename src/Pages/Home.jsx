@@ -14,7 +14,7 @@ export default function Home() {
       >
       
 <motion.img
-  src="../public/Profile.jpg"
+  src="/Profile.jpg"
   alt="Marquan Bowman"
   className={styles.profile}
   initial={{ opacity: 0, scale: 0.9 }}
