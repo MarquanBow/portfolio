@@ -11,10 +11,11 @@ const projects = [
     demo: 'https://marquanexpensetracker.netlify.app/'
   },
   {
-    title: 'Pokémon Data Explorer',
-    description: 'Search and explore Pokémon stats by type or ability.',
-    tech: ['React', 'Axios', 'PokeAPI'],
-    github: 'https://github.com/yourname/pokemon-project'
+    title: 'PokéCloud',
+    description: 'Search and explore Pokémon, build a team, a fun way to learn about your favorite Pokémon.',
+    tech: ['React', 'Axios', 'PokeAPI', 'GoLang'],
+    github: 'https://github.com/MarquanBow/pokemon-explorer',
+    demo: 'https://pokeclouds.netlify.app/'
   },
   {
     title: 'Random Password Generator',
