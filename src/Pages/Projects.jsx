@@ -4,6 +4,34 @@ import ProjectCard from '../Components/ProjectCard';
 
 const projects = [
   {
+    title: 'Bowman Digital',
+    description: 'A web app for a web development business.',
+    tech: ['React', 'Node.js', 'Angular'],
+    github: 'https://github.com/MarquanBow/bowman-digital',
+    demo: 'https://bowmandigital.org/'
+  },
+  {
+    title: 'Some Assembly Required',
+    description: 'A web app to promote a local 3D printing business.',
+    tech: ['React', 'Node.js', 'Python', 'MongoDB'],
+    github: 'https://github.com/MarquanBow/someassemblyrequired',
+    demo: 'https://someassemblyrequired.netlify.app/'
+  },
+  {
+    title: 'Expense Tracker',
+    description: 'A full-stack app to manage personal expenses and set budgets.',
+    tech: ['React', 'Node.js', 'Python', 'MongoDB'],
+    github: 'https://github.com/MarquanBow/expense-tracker',
+    demo: 'https://marquanexpensetracker.netlify.app/'
+  },
+  {
+    title: 'Expense Tracker',
+    description: 'A full-stack app to manage personal expenses and set budgets.',
+    tech: ['React', 'Node.js', 'Python', 'MongoDB'],
+    github: 'https://github.com/MarquanBow/expense-tracker',
+    demo: 'https://marquanexpensetracker.netlify.app/'
+  },
+  {
     title: 'Expense Tracker',
     description: 'A full-stack app to manage personal expenses and set budgets.',
     tech: ['React', 'Node.js', 'Python', 'MongoDB'],

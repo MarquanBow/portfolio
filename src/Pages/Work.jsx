@@ -2,9 +2,14 @@ import ExpandableWorkCard from '../Components/ExpandableWorkCard';
 
 const workData = [
   {
+    company: 'Bowman Digital Web Development',
+    title: 'Owner/Developer',
+    dates: 'Apr 2026 - Present',
+  },
+  {
     company: 'CapTech Consulting',
     title: 'Consultant',
-    dates: 'Sep 2021 – Present',
+    dates: 'Sep 2021 – Aug 2025',
     clients: [
       {
         name: 'Capital One',
