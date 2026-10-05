@@ -28,7 +28,7 @@ export default function Home() {
         </p>
         <div className={styles.buttons}>
           <Link to="/projects" className={styles.button}>View Projects</Link>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.buttonOutline}>View Resume</a>
+          <a href="/MarquanBowmanResume.pdf" target="_blank" rel="noopener noreferrer" className={styles.buttonOutline}>View Resume</a>
         </div>
       </motion.div>
 
